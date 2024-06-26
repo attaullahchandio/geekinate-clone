@@ -1,0 +1,70 @@
+:root {
+  --primary-color: #6dc77a;
+}
+
+.large-title {
+  font-size: 42px;
+  letter-spacing: 2px;
+}
+.small-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+.body-content {
+  color: #525c6a;
+  font-size: 18px;
+}
+.btn-large {
+  width: 122px;
+  height: 34px;
+  color: #fff;
+  background: var(--primary-color);
+  font-weight: bold;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.links{
+    color: #525c6a;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+}
+.links:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.fa{
+  color: #6dc77a;
+  margin-right: 10px;
+}
+.big-icon{
+    color: #6dc77a;
+    font-size: 25px;
+}
+.card-title{
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+.field-decorate{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background: red; */
+  row-gap: 5px;
+  padding: 20px;
+}
+.field-decorate input{
+  padding: 5px;
+}
+.contact-title{
+  font-size: 16px;
+  font-weight: 500;
+}
+.fan{
+color: #8b929b;
+margin-left: 10px;
+
+}
